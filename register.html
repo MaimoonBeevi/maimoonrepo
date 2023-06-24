@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title> <!--Change the text to "Register"-->
+
+  </head>
+  <body style="background-color:yellow;">
+    <form>
+      <div class="container">
+        <h1>Registration Form</h1>
+        <p>Fill in this form to register.</p>
+        <label for="username"><b>Username</b></label>
+        <input
+          type="text"
+          placeholder="Enter username"
+          name="username"
+          id="username"
+          required
+        />
+
+        <label for="email"><b>Email</b></label>
+        <input
+          type="text"
+          placeholder="Enter Email"
+          name="email"
+          id="email"
+          required
+        />
+
+         <label for="email"><b>Contact No</b></label>
+        <input
+          type="number"
+          placeholder="Enter Contact No"
+          name="contact"
+          id="contact"
+          required
+        />
+
+        <label for="pwd"><b>Enter Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="pwd"
+          id="pwd"
+          required
+        />
+
+        <label for="pwd-repeat"><b>Confirm Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password Again"
+          name="pwd-repeat"
+          id="pwd-repeat"
+          required
+        />
+
+       <button onclick="window.location.href = 'loginpage.html';">Register</button>
+      
+      </div>
+     
+       <div>
+        <p>Already have an account? <a href="#">Log in</a>.</p>
+      </div>
+      
+    </form>
+</body>
+</html>
